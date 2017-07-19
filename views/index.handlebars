@@ -1,0 +1,68 @@
+// appController.get("/", function( req, res ) {
+//
+//     res.render(
+//         fs.readdir('./images/unicorn_rough', function (err, files) {
+//     for (var i=0; i < files.length; i++); {
+//     if (files[i] === '.DS_Store') {
+//         files.sort(0);
+//     }}
+//     console.log( files )
+// })
+//     )
+// })
+
+//loop the /images folder to populate an array of the individual images
+
+//loop a second time to populate a second array with /images/secondfolder/XX.jpg
+
+//loop this finished array through with the pixart code...
+<!--let canvas = document.querySelector('#canvas')-->
+
+<!--for (let i = 0; i < 2500; i++) {-->
+<!--let div = document.createElement('div')-->
+<!--div.classList.add('square')-->
+<!--// div.addEventListener("mouseenter", paintSquare) // we can add the event listener here, if we want-->
+<!--canvas.appendChild( div )-->
+<!--}-->
+<!--let myForm = document.getElementById("form")-->
+<!--let brush = document.querySelector('.brush')-->
+<!--let currentColor = "green"-->
+
+<!--myForm.addEventListener('submit', function( e ) {-->
+<!--e.preventDefault()-->
+
+<!--currentColor = e.target.querySelector('input').value-->
+<!--brush.style.backgroundColor = currentColor-->
+<!--})-->
+//except now it needs to make a image div class, instead of a canvas class
+//and then figure out how to toss that back to the {{body}} tag in the main.handlebars
+
+
+<!--<body>-->
+
+<!--<h2 class="w3-center">Automatic Slideshow</h2>-->
+
+<!--<div class="w3-content w3-section" style="max-width:500px">-->
+    <!--<img class="mySlides" src="img_la.jpg" style="width:100%">-->
+    <!--<img class="mySlides" src="img_ny.jpg" style="width:100%">-->
+    <!--<img class="mySlides" src="img_chicago.jpg" style="width:100%">-->
+<!--</div>-->
+
+<!--<script>-->
+    <!--var myIndex = 0;-->
+    <!--carousel();-->
+
+    <!--function carousel() {-->
+        <!--var i;-->
+        <!--var x = document.getElementsByClassName("mySlides");-->
+        <!--for (i = 0; i < x.length; i++) {-->
+            <!--x[i].style.display = "none";-->
+        <!--}-->
+        <!--myIndex++;-->
+        <!--if (myIndex > x.length) {myIndex = 1}-->
+        <!--x[myIndex-1].style.display = "block";-->
+        <!--setTimeout(carousel, 300); // Change image every 2 seconds-->
+    <!--}-->
+<!--</script>-->
+
+<!--</body>-->

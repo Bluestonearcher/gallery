@@ -1,0 +1,9 @@
+app.computed.mailto = function(property) {
+return function () {
+return "mailto:" + this.get(property);
+}.property(property);
+};
+
+var mailto = Ember.ObjectController.extend({
+mailtoContactEmail: mailto('bluestonearcher@gmail.com')
+});

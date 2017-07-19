@@ -15,14 +15,16 @@ Dev notes
 Upload goal - to be able to simply drop a new folder into a location, and within have all of the images needed for the new loop. Name of the folder names the selection of the gallery? Numbered files to dictate location in loop?
 
 Plan to implement:
-1. Set up github location
-2. Basic html files
+Check 1. Set up github location
+Check 2. Basic html files
     2a. Formatting header/footer
     2b. Get secondary pages (gallery, store, blog, etc redirects) functioning
-3. Basic index.js files
-4. Install handlebars, express, etc
-5. Reference/connect the engines
-6. Test a basic {{body}} file with a loop animation
+Check 3. Basic index.js files
+Check 4. Install handlebars, express, etc
+Check 5. Reference/connect the engines
+6. Loop an animation
+    6a Get a {{{body}}} file to work with an animation
+    6b Direct the {{{body}}} to look into a folder for the image information
 7. Add incrementing buttons to make fps speed change
     7a. Thumbnails of process images with incrementing buttons
 8. Add scrolling sidebar
@@ -30,3 +32,18 @@ Plan to implement:
 10. Link thumbnails to animations
 
 ** Make adding images an easy thing! Dangit! Somehow! ha.
+
+
+
+
+I need to be able to get all the files in a folder....
+
+-jquery has an option, ajax has an option...
+
+-is there a way to do a {{{handlebars}}} retrieval
+
+-use pixart style "create so many of X class" to pull files from a specific folder (how to pull how many items are in the folder, how to direct it to the folder)
+
+-put all of X files in Y folder into an array... (feels like one step too many)
+
+-at least test the html version from class 9 to make sure the animation part works - crap, this is actually two steps.
